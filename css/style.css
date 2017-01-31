@@ -1,0 +1,560 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 13px;
+  line-height: 24px;
+  color: #000;
+  font-weight: normal;
+  font-family: Cuprum, Arial, sans-serif;
+  background: #ccc; /*Только для оформления сетки*/
+}
+
+.item-name {
+  width:165px;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.catalog-title {
+  width: 436px;
+  margin-bottom: 20px;
+  padding: 30px 0 30px 30px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.title-about {
+  margin-bottom: 25px;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.title-services {
+  margin-top: 64px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.main-header {
+  margin-bottom: 20px;
+  padding-bottom: 65px;
+}
+
+.top-header {
+  margin-bottom: 35px;
+  font-size: 17px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;;
+}
+
+.site-logo {
+  float: left;
+  min-height: 42px; /*Только для оформления сетки*/
+  width: 220px;
+}
+
+.header-search {
+  float: left;
+  width: 130px;
+  padding-left: 50px;
+}
+
+.header-btn {
+  display: block;
+  float: left;
+  min-height: 42px; /*Только для оформления сетки*/
+  width: 150px;
+}
+
+.favorites-btn {
+  margin-left: 80px;
+}
+
+.basket-btn {
+  margin-left: 10px;
+}
+
+.header-information {
+  padding-bottom: 37px;
+}
+
+.site-name {
+  float: left;
+  width: 200px;
+  padding-left: 52px;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.technomart-contacts {
+  float: left;
+  width: 300px;
+  margin-left: 68px;
+}
+
+.enter-site {
+  float: right;;
+  width: 281px;
+}
+
+.user-block {
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.main-navigation {
+  min-height: 60px; /*Только для оформления сетки*/
+  width: 960px;
+  font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  list-style: none;
+}
+
+.main-navigation a {
+  padding: 0 25px;
+  font-size: 17px;
+  line-height: 60px;
+}
+
+.banners1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  float: left;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.banner-materials {
+  margin-left: 0;
+}
+
+.promo-title {
+  margin-bottom: 10px;
+  padding-top: 17px;
+  padding-left: 24px;
+  font-size:24px;
+  line-height: 30px;
+}
+
+.promo-link {
+  display: block;
+  width: 135px;
+  margin-left: 30px;
+  margin-bottom: 22px;
+  padding: 11px 0 12px 0;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.slider {
+  float: left;
+  width: 620px;
+  height: 256px;
+  margin-bottom: 59px;
+}
+
+.banner-discounts {
+  margin-bottom: 22px;
+}
+
+.slider-title {
+  margin-top: 24px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  font-size: 36px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.slider-description {
+  margin-left: 30px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.open-catalog {
+  display: block;
+  width: 196px;
+  margin-left: 30px;
+  padding: 8px 0 8px 0;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.popular-items {
+  margin-bottom: 20px;
+}
+
+.popular-item {
+  width: 220px;
+  min-height: 318px;
+  float: left;
+  margin-right: 20px;
+}
+
+.popular-item:last-child {
+  margin-right: 0;
+}
+
+.index-title {
+  float: left;
+  width: 436px;
+  margin-bottom: 20px;
+  padding: 30px 0 30px 30px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.btn-title {
+  display: block;
+  float: right;
+  width: 253px;
+  margin-top: 25px;
+  margin-right: 22px;
+  padding: 10px 0 10px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.item-name {
+
+}
+
+.suppliers {
+  margin-bottom: 80px;
+}
+
+.supplier {
+  float: left;
+  display: block;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.supplier:nth-child(4) {
+  margin-right: 0;
+  margin-bottom: 17px;
+}
+
+.supplier:nth-child(8) {
+  margin-right: 0;
+}
+
+.about-magazine {
+  width: 360px;
+  margin-bottom: 70px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.btn-services {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+}
+
+.btn-delivery, .btn-guarantee, .btn-credit {
+  width: 240px;
+  min-height: 62px;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.services-delivery {
+  float: left;
+  padding-bottom: 102px;
+}
+
+.title-service {
+  margin-bottom: 34px;
+  font-size: 36px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.about-company {
+  padding-top: 110px;
+}
+
+.about-technomart {
+  float: left;
+  width: 510px;
+}
+
+.title-about-text1 {
+  margin-bottom: 27px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.title-about-text2 {
+  width: 400px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.transport-companies li{
+  margin-bottom: 27px;
+  list-style: none;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.contacts {
+  float: right;
+  width: 310px;
+}
+
+.title-about-text3 {
+  width: 200px;
+  margin-bottom: 35px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.btn-about-company {
+  display: block;
+  width: 220px;
+  margin-bottom: 93px;
+  padding: 8px 0 8px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts img {
+  margin-bottom: 35px;
+}
+
+.btn-map {
+  display: block;
+  width: 300px;
+  margin-bottom: 93px;
+  padding: 8px 0 8px 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.breadcrumbs {
+  margin-bottom: 15px;
+  font-size: 0;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  padding-right: 25px;
+  font-size: 13px;;
+  line-height: 18px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.catalog-content {
+  float: left;
+  width: 220px;
+}
+
+.sorting-product {
+  float: right;
+  width: 700px;
+  font-size: 0;
+}
+
+.title-filter {
+  float:left;
+  width: 160px;
+  padding: 5px 0 5px 20px;
+  text-transform: uppercase;
+}
+
+.sorting {
+  display: inline-block;
+}
+
+.sorting-product {
+  margin-bottom: 20px;
+}
+
+.sorting-product li {
+  float: left;
+  padding: 0 20px 0 20px;
+  font-size: 13px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.items {
+  float: right;
+  margin-bottom: 25px;
+  width:700px;
+}
+
+.item {
+  float: left;
+  padding-top: 30px;
+  margin: 0 20px 20px 0;
+  width: 220px;
+  min-height: 290px;
+}
+
+.item:nth-child(3) {
+  margin: 0 0 20px 0;
+}
+
+.item:nth-child(6) {
+  margin: 0 0 20px 0;
+}
+
+.item:nth-child(9) {
+  margin: 0 0 20px 0;
+}
+
+.item-btns {
+  display: none;
+}
+
+.catalog-result {
+  margin-bottom: 13px;
+}
+
+.pagination {
+  margin-left: 240px;
+}
+
+.pagination li{
+  display: block;
+  float: left;
+  width: 38px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  list-style: none;
+}
+
+.product-description {
+  padding-top: 80px;
+  padding-bottom: 73px;
+}
+
+.product-title {
+  padding-bottom: 32px;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.footer-logo {
+  float: left;
+  margin-bottom: 10px;
+  width: 220px;
+}
+
+.footer-menu {
+  float: right;
+  padding-top: 30px;
+  font-size: 0;
+}
+
+.footer-menu li {
+  display: inline-block;
+  padding-left: 58px;
+  font-size: 18px;
+}
+
+.footer-address {
+  float: left;
+  margin-bottom: 46px;
+  width: 350px;
+  font-size: 18px;
+}
+
+.catalog-menu {
+  float: right;
+}
+
+.footer-line {
+  font-size: 0;
+}
+
+.catalog-menu li {
+  display: inline-block;
+  padding-left: 53px;
+  font-size: 18px;
+}
+
+.footer-copyright {
+  float: left;
+  width: 230px;
+  padding: 42px 0 29px 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.social-btns {
+  float: left;
+  width: 150px;
+  margin-left: 160px;
+  padding-top: 37px;
+}
+
+.communication {
+  float: left;
+  width: 140px;
+  margin-left: 100px;
+  padding-top: 40px;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.developer {
+  float: left;
+  margin-left: 40px;
+  padding-top: 40px;
+  font-size: 16px;
+  line-height: 18px;
+}
